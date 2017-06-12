@@ -1,0 +1,12 @@
+PODS:
+  - GlidingCollection (1.0.2)
+
+DEPENDENCIES:
+  - GlidingCollection
+
+SPEC CHECKSUMS:
+  GlidingCollection: fdaca89dace525ff9c2bd54ca225eed866fae692
+
+PODFILE CHECKSUM: 29ac8e7b4fd85d628c3e9c36c8ea59cb327abdea
+
+COCOAPODS: 1.2.1

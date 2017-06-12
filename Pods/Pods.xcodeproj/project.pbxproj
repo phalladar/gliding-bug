@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D4FEBD3689D298A6EBA35FE990FAADB /* Pods-iPolice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EBCFBC368AB80611C23522EFC3E634 /* Pods-iPolice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E47787DDF931CB8407E1A7C69007AB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2851759F458CFEB0B304903A8821AEF5 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124F83AA2D1944DAE82A2BC4CFB3539 /* Collection.swift */; };
+		56A302ED5FCA5600575A385A06688ED5 /* GlidingCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55B8C14742576073147A3C49A8DBBB /* GlidingCollection.swift */; };
+		75DCFA35ABF5569DBEB9705A0C858DD4 /* GlidingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F8D0521270EE11B3951846599689FD /* GlidingConfig.swift */; };
+		7852E86FA09C6D490255C4BEBFD0003B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7C40A41AFA99564A3012BD27219224B2 /* GlidingCollection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E220F685026BDE4358335EA36A6F1D90 /* GlidingCollection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D70808D442D89D24D85AE2E48AD7763 /* GlidingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944342C68EABDF828F4647F874B1840 /* GlidingLayout.swift */; };
+		AD2CF5322D8AC36854AAED3AD22961C1 /* Pods-iPolice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4BD45C72EC6DDB376A5BD1454433FA /* Pods-iPolice-dummy.m */; };
+		BD7F1BB09AC5B7CC1AFA63023CA08E28 /* GlidingCollection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBC38D99707CAB33060A4788D6CC190 /* GlidingCollection-dummy.m */; };
+		C9788C8F76CB06594FCAFE69D36B0AD7 /* GlidingCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78837DE1CD937BD20C594A59E51D5223 /* GlidingCollectionDataSource.swift */; };
+		FEAA3B6A9080F25043F50B486ECB7B22 /* GlidingCollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967EFFE322CDFB8E94593A40DF2928B /* GlidingCollectionDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF9FD4DF5A04926D6E2795C826E8D07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2479E9AB3E362A53A6CBDCC0C46152E3;
+			remoteInfo = GlidingCollection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11F8D0521270EE11B3951846599689FD /* GlidingConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlidingConfig.swift; path = GlidingCollection/GlidingConfig.swift; sourceTree = "<group>"; };
+		18E74EEFC06E343DEB79853C8A4B96E5 /* GlidingCollection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlidingCollection.xcconfig; sourceTree = "<group>"; };
+		29A9EBA568EF59E99F731301788F7E5D /* Pods-iPolice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iPolice.modulemap"; sourceTree = "<group>"; };
+		3A7F2BAA56CA8D9FF01B091B3C7F8BD7 /* Pods-iPolice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPolice.release.xcconfig"; sourceTree = "<group>"; };
+		3E9D557EE70A67761959B705B5272D82 /* Pods-iPolice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPolice-acknowledgements.plist"; sourceTree = "<group>"; };
+		4967EFFE322CDFB8E94593A40DF2928B /* GlidingCollectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlidingCollectionDelegate.swift; path = GlidingCollection/Protocols/GlidingCollectionDelegate.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7212836B0B1060F15A90C2BD6E2D14EA /* Pods_iPolice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iPolice.framework; path = "Pods-iPolice.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78837DE1CD937BD20C594A59E51D5223 /* GlidingCollectionDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlidingCollectionDataSource.swift; path = GlidingCollection/Protocols/GlidingCollectionDataSource.swift; sourceTree = "<group>"; };
+		7BBC38D99707CAB33060A4788D6CC190 /* GlidingCollection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GlidingCollection-dummy.m"; sourceTree = "<group>"; };
+		8408A406AF30304C8F45D10FC3B0B9B0 /* Pods-iPolice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPolice.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD5AB3AD10344DC7B09DE97FCD2B403 /* GlidingCollection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlidingCollection-prefix.pch"; sourceTree = "<group>"; };
+		939F655596CF6EEA633B46D9350F975E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC40BAFA69DBEADDCEF96DFF4E24569C /* GlidingCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GlidingCollection.framework; path = GlidingCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EBCFBC368AB80611C23522EFC3E634 /* Pods-iPolice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iPolice-umbrella.h"; sourceTree = "<group>"; };
+		BB2773F320E8E60B64E66D677A9E8223 /* GlidingCollection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GlidingCollection.modulemap; sourceTree = "<group>"; };
+		C26DE29997E80A6482292C16A4FC3ABB /* Pods-iPolice-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iPolice-resources.sh"; sourceTree = "<group>"; };
+		CBBFE245554FD6AE62C17673DAA6D6C0 /* Pods-iPolice-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iPolice-frameworks.sh"; sourceTree = "<group>"; };
+		CE4BD45C72EC6DDB376A5BD1454433FA /* Pods-iPolice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iPolice-dummy.m"; sourceTree = "<group>"; };
+		CF0F6A9CBADFF90005AAB8B01F1F7AC5 /* Pods-iPolice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iPolice-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D124F83AA2D1944DAE82A2BC4CFB3539 /* Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = GlidingCollection/Extensions/Collection.swift; sourceTree = "<group>"; };
+		E220F685026BDE4358335EA36A6F1D90 /* GlidingCollection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlidingCollection-umbrella.h"; sourceTree = "<group>"; };
+		ED55B8C14742576073147A3C49A8DBBB /* GlidingCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlidingCollection.swift; path = GlidingCollection/GlidingCollection.swift; sourceTree = "<group>"; };
+		F18FD087886681B9615C59B1F15D769E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F944342C68EABDF828F4647F874B1840 /* GlidingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GlidingLayout.swift; path = GlidingCollection/GlidingLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04143181CFBC4F2F827D57848B8A9B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E47787DDF931CB8407E1A7C69007AB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378477040B4E9A348472D4FB257E351C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7852E86FA09C6D490255C4BEBFD0003B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E9F58B3AD6FA13746184C28894031ED /* Pods-iPolice */ = {
+			isa = PBXGroup;
+			children = (
+				F18FD087886681B9615C59B1F15D769E /* Info.plist */,
+				29A9EBA568EF59E99F731301788F7E5D /* Pods-iPolice.modulemap */,
+				CF0F6A9CBADFF90005AAB8B01F1F7AC5 /* Pods-iPolice-acknowledgements.markdown */,
+				3E9D557EE70A67761959B705B5272D82 /* Pods-iPolice-acknowledgements.plist */,
+				CE4BD45C72EC6DDB376A5BD1454433FA /* Pods-iPolice-dummy.m */,
+				CBBFE245554FD6AE62C17673DAA6D6C0 /* Pods-iPolice-frameworks.sh */,
+				C26DE29997E80A6482292C16A4FC3ABB /* Pods-iPolice-resources.sh */,
+				B1EBCFBC368AB80611C23522EFC3E634 /* Pods-iPolice-umbrella.h */,
+				8408A406AF30304C8F45D10FC3B0B9B0 /* Pods-iPolice.debug.xcconfig */,
+				3A7F2BAA56CA8D9FF01B091B3C7F8BD7 /* Pods-iPolice.release.xcconfig */,
+			);
+			name = "Pods-iPolice";
+			path = "Target Support Files/Pods-iPolice";
+			sourceTree = "<group>";
+		};
+		42DF61AF0F673F78B6687FAF941F3AB1 /* GlidingCollection */ = {
+			isa = PBXGroup;
+			children = (
+				D124F83AA2D1944DAE82A2BC4CFB3539 /* Collection.swift */,
+				ED55B8C14742576073147A3C49A8DBBB /* GlidingCollection.swift */,
+				78837DE1CD937BD20C594A59E51D5223 /* GlidingCollectionDataSource.swift */,
+				4967EFFE322CDFB8E94593A40DF2928B /* GlidingCollectionDelegate.swift */,
+				11F8D0521270EE11B3951846599689FD /* GlidingConfig.swift */,
+				F944342C68EABDF828F4647F874B1840 /* GlidingLayout.swift */,
+				C8C9263EC5985B4166C5A84D32FE5DD0 /* Support Files */,
+			);
+			name = GlidingCollection;
+			path = GlidingCollection;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB78D3EFF7FD025DA712B05D5FC7CF10 /* Pods */,
+				D742A09060E17FFAF24CCA0DFC7C502B /* Products */,
+				E593DFF95CA4761050691D0725D3405D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C9263EC5985B4166C5A84D32FE5DD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2773F320E8E60B64E66D677A9E8223 /* GlidingCollection.modulemap */,
+				18E74EEFC06E343DEB79853C8A4B96E5 /* GlidingCollection.xcconfig */,
+				7BBC38D99707CAB33060A4788D6CC190 /* GlidingCollection-dummy.m */,
+				8BD5AB3AD10344DC7B09DE97FCD2B403 /* GlidingCollection-prefix.pch */,
+				E220F685026BDE4358335EA36A6F1D90 /* GlidingCollection-umbrella.h */,
+				939F655596CF6EEA633B46D9350F975E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GlidingCollection";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D742A09060E17FFAF24CCA0DFC7C502B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC40BAFA69DBEADDCEF96DFF4E24569C /* GlidingCollection.framework */,
+				7212836B0B1060F15A90C2BD6E2D14EA /* Pods_iPolice.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E593DFF95CA4761050691D0725D3405D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F58B3AD6FA13746184C28894031ED /* Pods-iPolice */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB78D3EFF7FD025DA712B05D5FC7CF10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42DF61AF0F673F78B6687FAF941F3AB1 /* GlidingCollection */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38E5BBA065FC604549DAEF9ED2324BCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C40A41AFA99564A3012BD27219224B2 /* GlidingCollection-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A66157166B37DEFC9C1FBE99038D24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4FEBD3689D298A6EBA35FE990FAADB /* Pods-iPolice-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2479E9AB3E362A53A6CBDCC0C46152E3 /* GlidingCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E54C6E280C6FDEBB10F676C2836CED /* Build configuration list for PBXNativeTarget "GlidingCollection" */;
+			buildPhases = (
+				BE449156EE561BEF5368F43EA8CC3C46 /* Sources */,
+				04143181CFBC4F2F827D57848B8A9B33 /* Frameworks */,
+				38E5BBA065FC604549DAEF9ED2324BCF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlidingCollection;
+			productName = GlidingCollection;
+			productReference = AC40BAFA69DBEADDCEF96DFF4E24569C /* GlidingCollection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A5150A7B0D3191D712AE3E09B2AD0A2 /* Pods-iPolice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C979970A2CBF3DDC8A4B2C011508685 /* Build configuration list for PBXNativeTarget "Pods-iPolice" */;
+			buildPhases = (
+				89A4C5E081B4D3FD4435E8CDACEDA42E /* Sources */,
+				378477040B4E9A348472D4FB257E351C /* Frameworks */,
+				F6A66157166B37DEFC9C1FBE99038D24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70A839B8677060BDC342F3BD4E365BDB /* PBXTargetDependency */,
+			);
+			name = "Pods-iPolice";
+			productName = "Pods-iPolice";
+			productReference = 7212836B0B1060F15A90C2BD6E2D14EA /* Pods_iPolice.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D742A09060E17FFAF24CCA0DFC7C502B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2479E9AB3E362A53A6CBDCC0C46152E3 /* GlidingCollection */,
+				9A5150A7B0D3191D712AE3E09B2AD0A2 /* Pods-iPolice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A4C5E081B4D3FD4435E8CDACEDA42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2CF5322D8AC36854AAED3AD22961C1 /* Pods-iPolice-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE449156EE561BEF5368F43EA8CC3C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2851759F458CFEB0B304903A8821AEF5 /* Collection.swift in Sources */,
+				BD7F1BB09AC5B7CC1AFA63023CA08E28 /* GlidingCollection-dummy.m in Sources */,
+				56A302ED5FCA5600575A385A06688ED5 /* GlidingCollection.swift in Sources */,
+				C9788C8F76CB06594FCAFE69D36B0AD7 /* GlidingCollectionDataSource.swift in Sources */,
+				FEAA3B6A9080F25043F50B486ECB7B22 /* GlidingCollectionDelegate.swift in Sources */,
+				75DCFA35ABF5569DBEB9705A0C858DD4 /* GlidingConfig.swift in Sources */,
+				8D70808D442D89D24D85AE2E48AD7763 /* GlidingLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70A839B8677060BDC342F3BD4E365BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GlidingCollection;
+			target = 2479E9AB3E362A53A6CBDCC0C46152E3 /* GlidingCollection */;
+			targetProxy = AF9FD4DF5A04926D6E2795C826E8D07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B89FF582B2335F781FB11B76CD7D959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7F2BAA56CA8D9FF01B091B3C7F8BD7 /* Pods-iPolice.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iPolice/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPolice/Pods-iPolice.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iPolice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D885C1C74F58B966B4C23E632AEFD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E74EEFC06E343DEB79853C8A4B96E5 /* GlidingCollection.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GlidingCollection/GlidingCollection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GlidingCollection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GlidingCollection/GlidingCollection.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GlidingCollection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		278819A6DFF7DADA2F90B8B76BA2A974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8408A406AF30304C8F45D10FC3B0B9B0 /* Pods-iPolice.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iPolice/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPolice/Pods-iPolice.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iPolice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FC9C55865F837273EC120E91D4EEAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E74EEFC06E343DEB79853C8A4B96E5 /* GlidingCollection.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GlidingCollection/GlidingCollection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GlidingCollection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GlidingCollection/GlidingCollection.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GlidingCollection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E54C6E280C6FDEBB10F676C2836CED /* Build configuration list for PBXNativeTarget "GlidingCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC9C55865F837273EC120E91D4EEAB8 /* Debug */,
+				0D885C1C74F58B966B4C23E632AEFD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C979970A2CBF3DDC8A4B2C011508685 /* Build configuration list for PBXNativeTarget "Pods-iPolice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278819A6DFF7DADA2F90B8B76BA2A974 /* Debug */,
+				0B89FF582B2335F781FB11B76CD7D959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
